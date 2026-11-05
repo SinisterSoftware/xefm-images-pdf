@@ -1,6 +1,6 @@
 [extension]
 id = "images-pdf"
-version = "0.1.0"
+version = "0.1.1"
 api_version = 1
 name = "Images to PDF"
 description = "Convert selected images to a PDF."

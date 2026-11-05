@@ -1,0 +1,18 @@
+[extension]
+id = "images-pdf"
+version = "0.1.0"
+api_version = 1
+name = "Images to PDF"
+description = "Convert selected images to a PDF."
+min_xefm = "1.12.0"
+platforms = ["windows"]
+updates = "github:SinisterSoftware/xefm-images-pdf"
+
+[contributes.actions]
+"images-pdf.convert" = { entry = "images_pdf.actions:images_to_pdf", description = "Convert selected images to PDF" }
+
+[contributes.key_suggestions]
+"images-pdf.convert" = ["Alt-Shift-I"]
+
+[requires]
+host_packages = ["PIL"]
